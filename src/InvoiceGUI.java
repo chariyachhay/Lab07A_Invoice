@@ -49,7 +49,7 @@ public class InvoiceGUI extends JFrame {
         add(addButton);
         add(generateButton);
 
-        outputArea = new JTextArea(12, 40);
+        outputArea = new JTextArea(20, 60);
         JScrollPane scrollPane = new JScrollPane(outputArea);
 
         add(scrollPane);
